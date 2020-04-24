@@ -4,17 +4,14 @@
     <title>Tails</title>
   </head>
   <body>
-    <p id="message"></p>
     <script>
       let redirectUrl;
       if (Math.random() < 0.5) {
-        redirectUrl = 'Tails 1';
+        redirectUrl = "https://youtu.be/Z8GXa8wW1-A";
       } else {
-        redirectUrl = 'Tails 2';
+        redirectUrl = "https://youtu.be/PfdOEVVtgb4";
       }
-
-      document.getElementById('message').innerHTML = redirectUrl;
-      // window.location.replace(redirectUrl);
+       window.location.replace(redirectUrl);
     </script>
   </body>
 </html>
