@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heads</title>
+  </head>
+  <body>
+    <p id="message"></p>
+    <script>
+      let redirectUrl;
+      if (Math.random() < 0.5) {
+        redirectUrl = 'Heads 1';
+      } else {
+        redirectUrl = 'Heads 2';
+      }
+
+      document.getElementById('message').innerHTML = redirectUrl;
+      // window.location.replace(redirectUrl);
+    </script>
+  </body>
+</html>
