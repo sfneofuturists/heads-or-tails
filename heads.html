@@ -4,17 +4,17 @@
     <title>Heads</title>
   </head>
   <body>
-    <p id="message"></p>
     <script>
       let redirectUrl;
       if (Math.random() < 0.5) {
-        redirectUrl = 'Heads 1';
+        // Heads wins
+        redirectUrl = "https://youtu.be/y72sfAOlJh4";
       } else {
-        redirectUrl = 'Heads 2';
+        // Heads loses
+        redirectUrl = "https://youtu.be/DdVCEBNOxZc";
       }
 
-      document.getElementById('message').innerHTML = redirectUrl;
-      // window.location.replace(redirectUrl);
+      window.location.replace(redirectUrl);
     </script>
   </body>
 </html>
